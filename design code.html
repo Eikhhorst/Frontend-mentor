@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Design</title>
+
+    <style>
+        body{
+            background-color: rgb(237, 234, 223);
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        .divide{
+            display: flex;
+            align-content: center;
+            justify-content: start;
+            width: 50%;
+            height: 360px;
+            margin-top: 70px;
+            background-color: rgb(247, 249, 250);
+            border-radius: 12px;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            border-bottom-left-radius: 12px;
+            border-top-left-radius: 12px;
+        }
+        .bummer{
+            width: 50%;
+        }
+        .filler{
+            width: 50%;
+            height: 100%;
+            display: block;
+            padding: 10px;
+            padding-left: 20px;
+        }
+        h5{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            margin-top: 10px;
+            margin-bottom: 6px;
+        }
+        h2{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .note{
+            margin-top: 6px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-bottom: 0px;
+        }
+        #green{
+            display: flex;
+            align-content: flex-start;
+            justify-content: start;
+        }
+        .milk{
+            font-size: 28px;
+            color: rgb(124, 239, 9);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-top: 2px;
+            margin-bottom: 10px;
+        }
+        button{
+            background-color: rgb(93, 159, 28);
+            color: white;
+            width: 200px;
+            height: 40px;
+            border-radius: 7px;
+            border: 0px;
+        }
+        @media (min-width:953px) and (max-width: 1002px){
+            h5{
+                font-size: 10px;
+                margin-bottom: 4px;
+            }
+            h2{
+                font-size: 24px;
+                margin-top: 8px;
+                margin-bottom: 5px;
+            }
+            
+            .note{
+                font-size: 14px;
+            }
+            .divide{
+                height: 340px;
+            }
+
+        }
+        @media (min-width:902px) and (max-width: 952px){
+            h5{
+                font-size: 9px;
+                margin-bottom: 4px;
+            }
+            h2{
+                font-size: 24px;
+                margin-top: 7px;
+                margin-bottom: 4px;
+            }
+            .note{
+                font-size: 12px;
+            }
+            .divide{
+                height: 320px;
+                
+            }  
+            button{
+           
+            width: 180px;
+            height: 37px;
+            border-radius: 6px;
+            border: 0px;
+        }
+        body{
+            justify-content: center;
+            align-content: center;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="divide">
+        <div class="bummer">
+            <img src="perfume.jpg">
+        </div>
+        <div class="filler">
+            <h5>P E R F U M E</h5>
+            <h2>Gabrielle<br>
+                Essence Eau De<br>
+                Parfum
+            </h2>
+            <p class="note">A floral, solar and voluptuous <br>interpretation composed by <br>Olivier Polge, Perfumer-Creator <br>for the House of CHANEL.</p>
+            <div id="green">
+                <p class="milk">$149.99  </p>
+                <p style="font-size:10px ;"> ~$169.99~</p>
+                
+            </div>
+            <button>Add to Cart</button>
+
+        </div>
+    </div>
+</body>
+</html>
